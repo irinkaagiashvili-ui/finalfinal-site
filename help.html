@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Help &amp; Installation — FinalFinal</title>
+<meta name="description" content="How to install FinalFinal and use Quick Scan, Full QA, Digital/Print/Complete modes, Locate, Mute, Re-scan, Profiles, and Export.">
+<link rel="icon" type="image/svg+xml" href="assets/img/logo-mark.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon-180.png">
+<link rel="stylesheet" href="assets/css/style.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Help & Installation — FinalFinal">
+<meta property="og:description" content="How to install and use FinalFinal inside Adobe Illustrator.">
+<meta property="og:image" content="assets/img/og-image.png">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo-mark.svg" alt="" width="30" height="30">
+      FinalFinal
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <a href="index.html#features">Features</a>
+      <a href="index.html#modes">Modes</a>
+      <a href="index.html#workflow">Workflow</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="help.html">Help</a>
+      <a class="btn btn-ghost" href="mailto:finalfinal.support@gmail.com">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 5h14M3 10h14M3 15h14"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Help &amp; Installation</h1>
+      <p>Everything you need to install FinalFinal and get a campaign scanned in a few minutes.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="doc-layout">
+      <nav class="doc-nav" aria-label="On this page">
+        <a href="#install">Installation</a>
+        <a href="#find-it">Finding the panel</a>
+        <a href="#quick-scan">Quick Scan</a>
+        <a href="#full-qa">Full QA</a>
+        <a href="#modes">Digital, Print &amp; Complete</a>
+        <a href="#results">Working with results</a>
+        <a href="#profiles">Profiles</a>
+        <a href="#export">Export</a>
+        <a href="#troubleshooting">Troubleshooting</a>
+        <a href="#support">Support</a>
+      </nav>
+
+      <article class="doc-content">
+
+        <h2 id="install">Installation</h2>
+        <p>FinalFinal installs through the Adobe Creative Cloud Marketplace, the same way as any other Creative Cloud plugin:</p>
+        <ol>
+          <li>Open the <strong>Creative Cloud desktop app</strong>.</li>
+          <li>Go to the <strong>Marketplace</strong> (or Plugins) tab.</li>
+          <li>Search for <strong>FinalFinal</strong>.</li>
+          <li>Select the edition you need — <strong>Digital</strong>, <strong>Print</strong>, or <strong>Complete</strong> — and install it.</li>
+          <li>Restart Adobe Illustrator if it was already open.</li>
+        </ol>
+        <div class="callout">Each edition is its own installation. If you need both digital and print checks, install the Complete edition rather than installing Digital and Print separately.</div>
+
+        <h2 id="find-it">Finding the panel</h2>
+        <p>Once installed, open the panel from inside Illustrator:</p>
+        <p><code>Window → Extensions (Legacy) → FinalFinal — Campaign QA</code></p>
+        <p>The panel docks like any other Illustrator panel — drag it into your workspace, or leave it floating.</p>
+
+        <h2 id="quick-scan">Quick Scan</h2>
+        <p>Quick Scan is an instant hygiene check on the document you already have open — no profile or setup required. It checks the basics: fonts, images, text, and links.</p>
+        <p>From the <strong>Scan</strong> tab, click <strong>Quick Scan — no setup</strong>.</p>
+
+        <h2 id="full-qa">Full QA</h2>
+        <p>Full QA runs a complete check against a saved profile, across every artboard in the campaign. Use it when you want consistent, repeatable checks — for example, the same brand rules applied to every artboard in a 40-artboard campaign.</p>
+        <ol>
+          <li>On the <strong>Scan</strong> tab, choose or create a <strong>Campaign profile</strong>.</li>
+          <li>Set the <strong>Scan scope</strong> (all artboards, or a specific range) and, if relevant, a <strong>Reference artboard</strong> for consistency checks.</li>
+          <li>Click <strong>Run Campaign QA</strong>.</li>
+        </ol>
+
+        <h2 id="modes">Digital, Print &amp; Complete</h2>
+        <p>Under <strong>What are you checking?</strong>, pick the mode that matches your output:</p>
+        <ul>
+          <li><strong>Digital</strong> — web, social, screen, and online delivery.</li>
+          <li><strong>Print</strong> — print, editorial, packaging, and production.</li>
+          <li><strong>Complete</strong> — digital and print checks together, in one pass.</li>
+        </ul>
+        <p>Which modes are available depends on the edition you installed. If a mode shows a lock icon, it isn't included in your installed edition.</p>
+
+        <h2 id="results">Working with results</h2>
+        <p>After a scan, the <strong>Results</strong> tab lists every issue found, grouped and filterable by severity and category.</p>
+        <ul>
+          <li><strong>Locate</strong> — jumps straight to the object that caused the issue, on the correct artboard.</li>
+          <li><strong>Mute</strong> — hides an issue you've reviewed and decided to ignore, for this document. Muted issues stay hidden until you unmute them or clear all muted issues from the <strong>Settings</strong> tab.</li>
+          <li><strong>Re-scan</strong> — runs the check again with the current profile and scope, so you can confirm a fix worked.</li>
+        </ul>
+
+        <h2 id="profiles">Profiles</h2>
+        <p>A profile defines the rules for a Full QA scan: roles, fonts, colors, and tolerances. Set one up once for a campaign or client, then reuse it for every file. Edit or create profiles from the <strong>Profiles</strong> tab.</p>
+
+        <h2 id="export">Export</h2>
+        <p>The <strong>Export</strong> tab batch-exports every artboard in one pass, in any combination of:</p>
+        <ul>
+          <li>PNG (with optional transparency)</li>
+          <li>JPG</li>
+          <li>SVG</li>
+          <li>PDF</li>
+          <li>TIFF</li>
+          <li>AI (a copy of your saved file)</li>
+        </ul>
+
+        <h2 id="troubleshooting">Troubleshooting</h2>
+        <h3>The panel doesn't appear in the Window menu</h3>
+        <p>Fully quit and reopen Illustrator after installing. If it still doesn't appear, confirm the installed edition matches your Illustrator version, and check for an available Illustrator update.</p>
+        <h3>A scan is taking a while on a large file</h3>
+        <p>This is expected on campaigns with many artboards, images, or text frames — FinalFinal checks every artboard, not a sample. Progress continues in the background; avoid closing the document mid-scan.</p>
+        <h3>"Locate" can't find an object</h3>
+        <p>The object may have been moved, renamed, or deleted since the scan ran. Re-scan the document and use Locate again on the fresh results.</p>
+        <h3>A mode shows a lock icon</h3>
+        <p>That mode isn't included in your installed edition. Install the Complete edition for both digital and print checks.</p>
+
+        <h2 id="support">Support</h2>
+        <p>Still stuck, or found a bug? Email <a href="mailto:finalfinal.support@gmail.com">finalfinal.support@gmail.com</a> with a short description and, if possible, a screenshot.</p>
+
+      </article>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <a class="footer-brand" href="index.html">
+      <img src="assets/img/logo-mark.svg" alt="" width="22" height="22">
+      FinalFinal
+    </a>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="help.html">Help</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+      <a href="mailto:finalfinal.support@gmail.com">Contact</a>
+    </nav>
+    <p class="footer-copy">© 2026 FinalFinal. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
